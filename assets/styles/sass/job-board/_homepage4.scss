@@ -1,0 +1,55 @@
+.bg-gradient{
+    background-image: linear-gradient(-90deg,#3535006b,#ff0000ab);background-image: linear-gradient(-90deg,#3535006b,#ff0000ab);
+}
+.bg-gradient2{
+    background-image: linear-gradient(135deg, #6f86d6 0%, #48c6ef 100%);
+}
+
+
+
+.homepage4{
+    background: url(../../../images/home4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20rem;
+    background-position: center;
+    .main-content{
+        margin-top: 15rem;
+    }
+}
+
+.how-it-works{
+    .step{
+        .step-item{
+            display: flex;
+            padding: 1rem 0;
+            .step-icon{
+                position: relative;
+                width: 7rem;
+                flex-shrink: 0;
+                text-align: center;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    top: 48px;
+                    bottom: -5rem;
+                    margin-left: -1px;
+                    border-left: 2px dashed #eaeff4;
+                }
+                .icon-box{
+                    color: #bfc5ca;
+                    background-color: #eaeff4;
+                    font-size: 1.5rem;
+                    width: 48px;
+                    height: 48px;
+                    line-height: 48px;
+                    border-radius: 50%;
+                }
+            }
+            .step-content{
+    
+            }
+        }
+    }
+}

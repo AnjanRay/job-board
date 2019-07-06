@@ -1,0 +1,23 @@
+.header{
+    vertical-align: middle;
+    z-index: 999;
+    .header--nav{
+     
+        .header--nav__navbar{
+            ul{
+                li{
+                    a{
+                        padding: 0 31px;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+            .header__btn{
+
+            }
+        }
+    }
+}

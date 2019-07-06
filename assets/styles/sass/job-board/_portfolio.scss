@@ -1,0 +1,78 @@
+.portfolio{
+    .section-title{
+        padding: 4rem 0rem 2rem 0rem;
+        text-transform: capitalize;
+    }
+
+    .other-menu {
+        .page-list{
+            padding: 0;
+            margin: 0;
+            margin-bottom: 30px;
+            list-style: none;
+            font-size: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            li{
+                font-size: 1rem;
+                padding: 3px 20px;
+                border-radius: 3px;
+                cursor: pointer;
+                margin-bottom: 15px;
+            }
+            .active{
+                background: rgba(36, 109, 248, 0.15);
+                color: #246df8;
+            }
+        }
+    }
+    .page-preveiw{
+        margin-bottom: $spacing-xxxl;
+        h6{ 
+            margin-top: $spacing-xl;
+            text-align: center;
+            text-transform: capitalize;
+            a{
+                text-decoration: none;
+                display: inline-block;
+                color: inherit;
+                outline: none;
+            }
+            }
+        .thumbnail{
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+            position: relative;
+            border-radius: 5px;
+            overflow: hidden;
+            .overlay{
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                right: 30px;
+                bottom: 30px;
+                background: rgba(255, 255, 255, 0.8);
+                opacity: 0;
+                transition: all .3s ease;
+                &:hover{
+                    opacity: 1;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+                a{
+                    background: #246df8;
+                    color: #fff;
+                    border-radius: 3px;
+                    padding: 5px 15px;
+                    font-weight: 400;
+                    position: absolute;
+                    top: 60%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}

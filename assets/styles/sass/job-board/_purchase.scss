@@ -1,0 +1,10 @@
+.purchase{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: $spacing-xxxl * 3;
+     .purchase-content{
+        font-weight: 300;
+        margin-bottom:$spacing-xxxl ;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
